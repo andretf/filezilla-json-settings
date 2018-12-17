@@ -1,0 +1,895 @@
+{
+  "FileZillaServer": {
+    "Groups": [
+      {
+        "Group": [
+          {
+            "$": {
+              "Name": "groupname"
+            },
+            "Option": [
+              {
+                "_": "0",
+                "$": {
+                  "Name": "Bypass server userlimit"
+                }
+              },
+              {
+                "_": "0",
+                "$": {
+                  "Name": "User Limit"
+                }
+              },
+              {
+                "_": "0",
+                "$": {
+                  "Name": "IP Limit"
+                }
+              },
+              {
+                "_": "1",
+                "$": {
+                  "Name": "Enabled"
+                }
+              },
+              {
+                "$": {
+                  "Name": "Comments"
+                }
+              },
+              {
+                "_": "0",
+                "$": {
+                  "Name": "ForceSsl"
+                }
+              }
+            ],
+            "IpFilter": [
+              {
+                "Disallowed": [
+                  ""
+                ],
+                "Allowed": [
+                  ""
+                ]
+              }
+            ],
+            "Permissions": [
+              ""
+            ],
+            "SpeedLimits": [
+              {
+                "$": {
+                  "DlType": "1",
+                  "DlLimit": "10",
+                  "ServerDlLimitBypass": "0",
+                  "UlType": "1",
+                  "UlLimit": "10",
+                  "ServerUlLimitBypass": "0"
+                },
+                "Download": [
+                  ""
+                ],
+                "Upload": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "Name": "groupname"
+            },
+            "Option": [
+              {
+                "_": "0",
+                "$": {
+                  "Name": "Bypass server userlimit"
+                }
+              },
+              {
+                "_": "0",
+                "$": {
+                  "Name": "User Limit"
+                }
+              },
+              {
+                "_": "0",
+                "$": {
+                  "Name": "IP Limit"
+                }
+              },
+              {
+                "_": "1",
+                "$": {
+                  "Name": "Enabled"
+                }
+              },
+              {
+                "$": {
+                  "Name": "Comments"
+                }
+              },
+              {
+                "_": "0",
+                "$": {
+                  "Name": "ForceSsl"
+                }
+              }
+            ],
+            "IpFilter": [
+              {
+                "Disallowed": [
+                  ""
+                ],
+                "Allowed": [
+                  ""
+                ]
+              }
+            ],
+            "Permissions": [
+              ""
+            ],
+            "SpeedLimits": [
+              {
+                "$": {
+                  "DlType": "1",
+                  "DlLimit": "10",
+                  "ServerDlLimitBypass": "0",
+                  "UlType": "1",
+                  "UlLimit": "10",
+                  "ServerUlLimitBypass": "0"
+                },
+                "Download": [
+                  ""
+                ],
+                "Upload": [
+                  ""
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Users": [
+      {
+        "User": [
+          {
+            "$": {
+              "Name": "username"
+            },
+            "Option": [
+              {
+                "_": "202cb962ac59075b964b07152d234b70",
+                "$": {
+                  "Name": "Pass"
+                }
+              },
+              {
+                "$": {
+                  "Name": "Salt"
+                }
+              },
+              {
+                "_": "external",
+                "$": {
+                  "Name": "Group"
+                }
+              },
+              {
+                "_": "2",
+                "$": {
+                  "Name": "Bypass server userlimit"
+                }
+              },
+              {
+                "_": "0",
+                "$": {
+                  "Name": "User Limit"
+                }
+              },
+              {
+                "_": "0",
+                "$": {
+                  "Name": "IP Limit"
+                }
+              },
+              {
+                "_": "1",
+                "$": {
+                  "Name": "Enabled"
+                }
+              },
+              {
+                "$": {
+                  "Name": "Comments"
+                }
+              },
+              {
+                "_": "0",
+                "$": {
+                  "Name": "ForceSsl"
+                }
+              }
+            ],
+            "IpFilter": [
+              {
+                "Disallowed": [
+                  ""
+                ],
+                "Allowed": [
+                  ""
+                ]
+              }
+            ],
+            "Permissions": [
+              {
+                "Permission": [
+                  {
+                    "$": {
+                      "Dir": "/home/user/ftp-root"
+                    },
+                    "Option": [
+                      {
+                        "_": "1",
+                        "$": {
+                          "Name": "FileRead"
+                        }
+                      },
+                      {
+                        "_": "0",
+                        "$": {
+                          "Name": "FileWrite"
+                        }
+                      },
+                      {
+                        "_": "0",
+                        "$": {
+                          "Name": "FileDelete"
+                        }
+                      },
+                      {
+                        "_": "0",
+                        "$": {
+                          "Name": "FileAppend"
+                        }
+                      },
+                      {
+                        "_": "0",
+                        "$": {
+                          "Name": "DirCreate"
+                        }
+                      },
+                      {
+                        "_": "0",
+                        "$": {
+                          "Name": "DirDelete"
+                        }
+                      },
+                      {
+                        "_": "1",
+                        "$": {
+                          "Name": "DirList"
+                        }
+                      },
+                      {
+                        "_": "1",
+                        "$": {
+                          "Name": "DirSubdirs"
+                        }
+                      },
+                      {
+                        "_": "1",
+                        "$": {
+                          "Name": "IsHome"
+                        }
+                      },
+                      {
+                        "_": "0",
+                        "$": {
+                          "Name": "AutoCreate"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "SpeedLimits": [
+              {
+                "$": {
+                  "DlType": "0",
+                  "DlLimit": "10",
+                  "ServerDlLimitBypass": "2",
+                  "UlType": "0",
+                  "UlLimit": "10",
+                  "ServerUlLimitBypass": "2"
+                },
+                "Download": [
+                  ""
+                ],
+                "Upload": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "Name": "username"
+            },
+            "Option": [
+              {
+                "_": "202cb962ac59075b964b07152d234b70",
+                "$": {
+                  "Name": "Pass"
+                }
+              },
+              {
+                "$": {
+                  "Name": "Salt"
+                }
+              },
+              {
+                "_": "external",
+                "$": {
+                  "Name": "Group"
+                }
+              },
+              {
+                "_": "2",
+                "$": {
+                  "Name": "Bypass server userlimit"
+                }
+              },
+              {
+                "_": "0",
+                "$": {
+                  "Name": "User Limit"
+                }
+              },
+              {
+                "_": "0",
+                "$": {
+                  "Name": "IP Limit"
+                }
+              },
+              {
+                "_": "1",
+                "$": {
+                  "Name": "Enabled"
+                }
+              },
+              {
+                "$": {
+                  "Name": "Comments"
+                }
+              },
+              {
+                "_": "0",
+                "$": {
+                  "Name": "ForceSsl"
+                }
+              }
+            ],
+            "IpFilter": [
+              {
+                "Disallowed": [
+                  ""
+                ],
+                "Allowed": [
+                  ""
+                ]
+              }
+            ],
+            "Permissions": [
+              {
+                "Permission": [
+                  {
+                    "$": {
+                      "Dir": "/home/user/ftp-root"
+                    },
+                    "Option": [
+                      {
+                        "_": "1",
+                        "$": {
+                          "Name": "FileRead"
+                        }
+                      },
+                      {
+                        "_": "0",
+                        "$": {
+                          "Name": "FileWrite"
+                        }
+                      },
+                      {
+                        "_": "0",
+                        "$": {
+                          "Name": "FileDelete"
+                        }
+                      },
+                      {
+                        "_": "0",
+                        "$": {
+                          "Name": "FileAppend"
+                        }
+                      },
+                      {
+                        "_": "0",
+                        "$": {
+                          "Name": "DirCreate"
+                        }
+                      },
+                      {
+                        "_": "0",
+                        "$": {
+                          "Name": "DirDelete"
+                        }
+                      },
+                      {
+                        "_": "1",
+                        "$": {
+                          "Name": "DirList"
+                        }
+                      },
+                      {
+                        "_": "1",
+                        "$": {
+                          "Name": "DirSubdirs"
+                        }
+                      },
+                      {
+                        "_": "1",
+                        "$": {
+                          "Name": "IsHome"
+                        }
+                      },
+                      {
+                        "_": "0",
+                        "$": {
+                          "Name": "AutoCreate"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "SpeedLimits": [
+              {
+                "$": {
+                  "DlType": "0",
+                  "DlLimit": "10",
+                  "ServerDlLimitBypass": "2",
+                  "UlType": "0",
+                  "UlLimit": "10",
+                  "ServerUlLimitBypass": "2"
+                },
+                "Download": [
+                  ""
+                ],
+                "Upload": [
+                  ""
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Settings": [
+      {
+        "Item": [
+          {
+            "_": "21",
+            "$": {
+              "name": "Serverports",
+              "type": "string"
+            }
+          },
+          {
+            "_": "2",
+            "$": {
+              "name": "Number of Threads",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "0",
+            "$": {
+              "name": "Maximum user count",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "120",
+            "$": {
+              "name": "Timeout",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "600",
+            "$": {
+              "name": "No Transfer Timeout",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "2",
+            "$": {
+              "name": "Check data connection IP",
+              "type": "numeric"
+            }
+          },
+          {
+            "$": {
+              "name": "Service name",
+              "type": "string"
+            }
+          },
+          {
+            "$": {
+              "name": "Service display name",
+              "type": "string"
+            }
+          },
+          {
+            "_": "1",
+            "$": {
+              "name": "Force TLS session resumption",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "20",
+            "$": {
+              "name": "Login Timeout",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "1",
+            "$": {
+              "name": "Show Pass in Log",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "1",
+            "$": {
+              "name": "Custom PASV IP type",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "192.168.0.1",
+            "$": {
+              "name": "Custom PASV IP",
+              "type": "string"
+            }
+          },
+          {
+            "_": "6000",
+            "$": {
+              "name": "Custom PASV min port",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "6050",
+            "$": {
+              "name": "Custom PASV max port",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "14147",
+            "$": {
+              "name": "Admin port",
+              "type": "numeric"
+            }
+          },
+          {
+            "$": {
+              "name": "Admin Password",
+              "type": "string"
+            }
+          },
+          {
+            "$": {
+              "name": "Admin IP Bindings",
+              "type": "string"
+            }
+          },
+          {
+            "$": {
+              "name": "Admin IP Addresses",
+              "type": "string"
+            }
+          },
+          {
+            "_": "1",
+            "$": {
+              "name": "Enable logging",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "0",
+            "$": {
+              "name": "Logsize limit",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "1",
+            "$": {
+              "name": "Logfile type",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "14",
+            "$": {
+              "name": "Logfile delete time",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "1",
+            "$": {
+              "name": "Disable IPv6",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "0",
+            "$": {
+              "name": "Enable HASH",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "0",
+            "$": {
+              "name": "Download Speedlimit Type",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "0",
+            "$": {
+              "name": "Upload Speedlimit Type",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "10",
+            "$": {
+              "name": "Download Speedlimit",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "10",
+            "$": {
+              "name": "Upload Speedlimit",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "32768",
+            "$": {
+              "name": "Buffer Size",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "192.168.0.1",
+            "$": {
+              "name": "Custom PASV IP server",
+              "type": "string"
+            }
+          },
+          {
+            "_": "1",
+            "$": {
+              "name": "Use custom PASV ports",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "1",
+            "$": {
+              "name": "Mode Z Use",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "1",
+            "$": {
+              "name": "Mode Z min level",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "9",
+            "$": {
+              "name": "Mode Z max level",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "0",
+            "$": {
+              "name": "Mode Z allow local",
+              "type": "numeric"
+            }
+          },
+          {
+            "$": {
+              "name": "Mode Z disallowed IPs",
+              "type": "string"
+            }
+          },
+          {
+            "_": "*",
+            "$": {
+              "name": "IP Bindings",
+              "type": "string"
+            }
+          },
+          {
+            "$": {
+              "name": "IP Filter Allowed",
+              "type": "string"
+            }
+          },
+          {
+            "$": {
+              "name": "IP Filter Disallowed",
+              "type": "string"
+            }
+          },
+          {
+            "_": "0",
+            "$": {
+              "name": "Hide Welcome Message",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "1",
+            "$": {
+              "name": "Enable SSL",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "1",
+            "$": {
+              "name": "Allow explicit SSL",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "/etc/ssl/privates/ftp.key",
+            "$": {
+              "name": "SSL Key file",
+              "type": "string"
+            }
+          },
+          {
+            "_": "/etc/ssl/certs/ftp.crt",
+            "$": {
+              "name": "SSL Certificate file",
+              "type": "string"
+            }
+          },
+          {
+            "_": "990",
+            "$": {
+              "name": "Implicit SSL ports",
+              "type": "string"
+            }
+          },
+          {
+            "_": "0",
+            "$": {
+              "name": "Force explicit SSL",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "262144",
+            "$": {
+              "name": "Network Buffer Size",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "1",
+            "$": {
+              "name": "Force PROT P",
+              "type": "numeric"
+            }
+          },
+          {
+            "$": {
+              "name": "SSL Key Password",
+              "type": "string"
+            }
+          },
+          {
+            "_": "0",
+            "$": {
+              "name": "Allow shared write",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "0",
+            "$": {
+              "name": "No External IP On Local",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "1",
+            "$": {
+              "name": "Active ignore local",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "0",
+            "$": {
+              "name": "Autoban enable",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "10",
+            "$": {
+              "name": "Autoban attempts",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "0",
+            "$": {
+              "name": "Autoban type",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "1",
+            "$": {
+              "name": "Autoban time",
+              "type": "numeric"
+            }
+          },
+          {
+            "_": "0",
+            "$": {
+              "name": "Minimum TLS version",
+              "type": "numeric"
+            }
+          }
+        ],
+        "SpeedLimits": [
+          {
+            "Download": [
+              ""
+            ],
+            "Upload": [
+              ""
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
